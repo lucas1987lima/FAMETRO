@@ -1,0 +1,89 @@
+<html>
+<head>
+ <title> ATIVIDADE 09/09/2009 </title>
+</head>
+<body>
+<div align="center">
+ <h3><font color="red"> REVIS&Atilde;O GERAL</font></h3>
+ <br> <!-- COMENTARIO EM HTML -->
+ <i> <font color="blue"> CENTRO </font></i>
+ <b><u><font color="green">EDUCACIONAL</font></u></b><i> FUCAPI</i>
+<br/><br/>
+<hr width="40%"> <!-- TAG HR CRIA UMA LINHA HORIZONTAL -->
+<br/>
+<img src= "logoceefeira2009.png"><br/><br/>
+<a href="http://www.google.com.br"target="_blank">
+<!-- _blank abre em nova aba ou página -->
+IR PARA P&Aacute;GINA DO GOOGLE
+</a><br/><br/>
+<p>
+<b><i><font color="blue" size="+1">TRABALHANDO COM TABELAS</font></i></b>
+<p>
+</div>
+<p>
+<!-- TABELA 1 --><table width="40%" align="center" border="3" bordercolor="#D22506">
+ <tr>
+  <td colspan="3" align="center">MESCLAGEM DE C&Eacute;LULAS</td>
+ </tr>
+ <tr>
+  <td align="center"><font size="+1"face="Arial"> A </font></td>
+  <td align="left"><u><font color="blue"> <b>B</b> </font></u></td>
+  <td bgcolor="#008000" align="right"> <font color="yellow" face="Arial">C</font> </td>
+ </tr>
+ <tr>
+  <td align="right"><font color="red" size="+3"><b><i> D </i></b></font></td>
+  <td align="center"> E </td>
+  <td> <p align="center" ><font size="+1"><b>FUCAPI</b></font></p></td>
+ </tr>
+</table>
+<!-- TABELA 2 -->
+<table width="40%" align="center" border="3" bordercolor="#D22506">>
+ <tr>
+  <td align="center"> A </td>
+  <td align="center"> B </td>
+  <td align="center"> C </td>
+ </tr>
+ <tr>
+  <td colspan="3" align="center"> <b>CEEF</b> </td>
+ </tr>
+ <tr>
+  <td align="center"> D </td>
+  <td align="center"> Z </td>
+  <td align="center"> R </td>
+ </tr>
+</table>
+<!-- TABELA 3 -->
+<table width="40%" align="center" border="3" bordercolor="#D22506">>
+ <tr>
+  <td align="center"width="15%"> A </td>
+  <td align="center" width="40%"> C </td>
+  <td align="center" rowspan="3" bgcolor="blue"><font color="white"> <b>CESF</b></font> </td>
+ </tr>
+ <tr>
+  <td align="center"> B </td>
+  <td align="center"> D </td>
+ </tr>
+ <tr>
+  <td align="center" > CZ </td>
+  <td align="center"> A7 </td>
+ </tr>
+</table>
+<!-- TABELA 4 -->
+<table width="40%" align="center" border="3" bordercolor="#D22506">>
+ <tr>
+  <td align="center" rowspan="2" > OL&Aacute; MUNDO </td>
+  <td align="center" width="10%"> 1 </td>
+  <td align="center"width="10%"> 2 </td>
+ </tr>
+ <tr>
+  <td align="center"> 3 </td>
+  <td align="center" > 4 </td>
+ </tr>
+ <tr>
+  <td align="center" bgcolor="black"><font color="white"> WEB PHP</font> </td>
+  <td align="center"> 5 </td>
+  <td align="center"> 6 </td>
+ </tr>
+</table>
+</body>
+</html>

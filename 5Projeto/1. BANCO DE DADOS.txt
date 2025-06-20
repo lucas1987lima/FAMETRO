@@ -1,0 +1,22 @@
+create table tabusuario(
+matricula char(50) primary key,
+nome char(100),
+login char(50),
+senha char(100)
+);
+
+create table tabfoto(
+idfoto int primary key auto_increment,
+categoria char(2),
+titulo char(200),
+foto char(200),
+comentario varchar(255)
+);
+
+create table tabvideo(
+idfoto int primary key auto_increment,
+categoria char(2),
+titulo char(200),
+foto char(200),
+comentario varchar(255)
+);

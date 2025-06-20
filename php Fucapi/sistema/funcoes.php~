@@ -1,0 +1,13 @@
+<?php
+//funçoes.php SALVAR DENTRODA PASTA SISTEMA
+/* Este exemplo mostra a utilizacao de funçoes em php.
+neste exemplo vamos criar a função somar que efetuara a soma de n1+n2
+DICA: EM PHP, assim como em C não existe procedure
+*/
+
+function somar ($n1,$n2) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n1 + $n2; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+?>

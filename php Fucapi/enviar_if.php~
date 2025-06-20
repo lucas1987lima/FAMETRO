@@ -1,0 +1,11 @@
+<html>
+<head>
+<title> Enviando variaveis para outra p&aacute;gina </title>
+</head>
+<body onload="document.form1.n1.focus();">
+<form name="form1" method="post" action="receber.php"> 
+   Digite N1 <input type="text" name="V1" id="V1" size="6"> <br/>   
+  <input type="submit" name="botao1" value="Enviar">
+</form>
+</body>
+</html>

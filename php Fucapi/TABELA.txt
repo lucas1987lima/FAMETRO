@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>TRABALHADO COM TABELAS</title>
+</head>
+<body background="fundo4.jpg">
+<table width="100%" align="center" border="1" bordercolor="black">
+<tr>
+ <td width="10%" bgcolor="#0000FF" align="center"><b> Projeto</b></td>
+ <td rowspan="4" background="fundo7.jpg" > </td>
+ <td width="10%" bgcolor="#0000FF" align="center"><b> Projeto </b></td>
+</tr>
+<tr>
+ <td width="10%" bgcolor="#1066F5" align="center"><b> Fotos </b></td>
+ <td width="10%" bgcolor="#1066F5" align="center"><b> Fotos </b></td>
+</tr>
+<tr>
+ <td width="10%" bgcolor="#1066F5" align="center"><b> Enquete </b></td>
+ <td width="10%" bgcolor="#1066F5" align="center"><b> Enquete </b></td>
+</tr>
+<tr>
+ <td width="10%" bgcolor="#1066F5" align="center"><b> Deixe sua Mensagem </b></td>
+ <td width="10%" bgcolor="#1066F5" align="center"><b> Deixe sua Mensagem </b></td>
+</tr>
+</table>
+</body>
+</html>
+

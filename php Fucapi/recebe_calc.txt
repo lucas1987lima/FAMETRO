@@ -1,0 +1,51 @@
+<html>
+<head>
+<title> CALCULADORA </title>
+</head>
+<body bgcolor="101010">
+<div align="center"><b></b><h1><font color="#ffffff"> TRABALHANDO COM CALCULADORA<br/>"RESPOSTA"</font></h1></b></div>
+<br/><br/>
+<table width="30%" align="center" border="1" bordercolor="yellow" bgcolor="red">
+<tr>
+<td>
+<?php
+echo "O valor digitado em N1 foi: ".$n1;
+echo "<br/>";
+echo "O valor digitado em N2 foi: " .$n2;
+echo "<br/><br/>";
+if ($op == 1)
+ {
+  $soma = $n1 + $n2;
+  echo "Resultado da Soma: " .$soma;
+ }
+else if ($op == 2)
+ {
+  $sub  = $n1 - $n2;
+  echo "<br/> Resultado da Subtracao: " .$sub;
+ }
+else if($op == 3)
+ {
+  $prod = $n1 * $n2;
+  echo "<br/> Resultado do Produto: " .$prod;
+ }
+else if ($op == 4)
+ { 
+  $div  = $n1 / $n2;
+  echo "<br/> Resultado da Divisao: " .$div;
+ }
+
+
+
+
+
+echo "<br/> <br/>";
+echo "<input type='button' name='btv' value='Voltar' onclick=location='calculadora.php'>"; //voltar co botao
+// . (ponto) = concatenação / união 
+?>
+
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

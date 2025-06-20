@@ -1,0 +1,28 @@
+<style>
+.textoss {
+font-weight: bold;
+font-size: 11px;
+color: #000000;
+font-family: Comic Sans MS;
+background: gray;
+}
+
+input:focus {
+    background: #0000FF;
+    font-weight: bold;
+    border: 2px solid #FFFF00;
+    color: #FFFFFF;
+}
+
+.button, .button:focus {
+    color: #fff;
+    background: #3366FF;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #000;
+    border-left: 1px solid #C4C4B8;
+    border-top: 1px solid #C4C4B8;
+}
+.button:hover {
+    background: #66a;
+}
+</style>

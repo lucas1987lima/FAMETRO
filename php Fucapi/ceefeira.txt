@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>..::Site CEEFeira 2009::..</title>
+</head>
+<body bgcolor="#3B97F1">
+<table width="800" align="center" border="1" bgcolor="gray">
+<tr>
+<td width="170"><img src="imagens/logo.png" width="170" height="200"></td>
+<td align="center" width="460">Bem Vindo a CEEFeira da FUCAPI 2009</td>
+<td width="170"><img src="imagens/logo.png" width="170" height="200"></td>
+</tr>
+<tr>
+<td>
+<!-- aqui entra a 2a. tabela-->
+<table width="100%" align="center" border="3">
+
+<tr>
+<td align="center"><a href="index.php">P&aacute;gina Principal</a></td>
+</tr>
+<tr>
+<td align="center"><a href="projetos.php">Projetos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="fotos.php">Fotos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="enquete.php">Enquetes</a></td>
+</tr>
+
+<tr>
+<td align="center"><a href="faleconosco.php">Fale com MBI-1</a></td>
+</tr>
+<tr>
+<td align="center"><a href="creditos.php">Cr&eacute;ditos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="localizar_projeto.php">Localize os Projetos</a></td>
+</tr>
+</table>
+<!-- fim 2a. tabela -->
+</td>
+<td align="center">
+
+<img src="imagens/enquete.png">
+<form name="fromenquete" action="post" action="?acao=Salvar">
+<table width="100%" align="center" border="0">
+<tr>
+<td colspan="2">Em uma escala de 6 a 10 de sua nota para CEEFeira 2009:</td>
+</tr>
+<tr>
+<td width="5%"><input type="radio" name="nota" id="nota" value="6"></td>
+<td>6</td>
+</tr>
+<tr>
+<td><input type="radio" name="nota" id="nota" value="7"></td>
+<td>7</td>
+</tr>
+
+<tr>
+<td><input type="radio" name="nota" id="nota" value="8"></td>
+<td>8</td>
+</tr>
+<tr>
+<td><input type="radio" name="nota" id="nota" value="9"></td>
+<td>9</td>
+</tr>
+<tr>
+<td><input type="radio" name="nota" id="nota" value="10"></td>
+<td>10</td>
+</tr>
+<tr>
+<td colspan="2"><input type="submit" name="bts" value="Votar"></td>
+
+</tr>
+</table>
+</form>
+
+</td>
+<td align="center">
+<img src="imagens/barranot.png">
+<marquee align="top" align="center" behavior="Scroll" direction="Up" width="100%" scrollamount="2" scrolldelay="50">
+<b>Projeto Sem&aacute;foro inteligente</b><br/>
+Visite o stand no bloco D sala 5 e conheca o projeto da turma NBE2.
+<br/><br/>
+<b>Projeto Site do Evento</b><br/>
+Visite a reda&ccedil;&atilde;o do site e conhe&ccedil;a a equipe desenvolvedora do site.
+
+</marquee>
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">&copy; Todos os direitos reservados a MBI-1 Solu&ccedil;&otilde;es em TI</td>
+</tr>
+</table>
+</body>
+</html>

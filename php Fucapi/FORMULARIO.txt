@@ -1,0 +1,43 @@
+<html>
+<head>
+ <title>FORMUL&Aacute;RIO </title>
+</head>
+<body>
+<form name="formcad" method="post" action="receber.html> <!-- ESE É O ARQUIVO QUE SERA RECEBIDO QUANDO PRECISAR SER SALVO -->
+<div align="center"> <h3>CADASTRO DE ALUNOS</h3></div><br/>
+Nome: <input type="text" name="nome" size="20"> <br/>
+Idade: <input type="text" name="idade" size="3" maxlength="3"> <br/>
+Senha: <input type="password" name="senha" size"5"> <br/>
+Sexo: <input type="radio" name="sexo" value="M"> Masculino
+      <input type="radio" name="sexo" value="F"> Feminino
+<!-- O NOME DOS RADIOS TEM QUE SER O MESMO !
+     A PROPRIEDADE VALUE ENVIA O VALOR PARA O BANCO DE DADOS
+     CHECKED =QUANDO FOR LOGADO A PRIMEIRA VEZ NA PG UM DAS OPCOE JA FIQUE SELECIONADAS-->
+<br/>
+Cursos que deseja fazer na FUCAPI
+<input type="checkbox" name="curso" value="java">Java
+<input type="checkbox" name="curso" value="php"> Php
+<input type="checkbox" nama="curso" value="Pascal"> Pascal <br/>
+Estado Civil: <select name="estcivil">
+<option value="1"> Soltero(a)</option>
+<option value="2"> Casado(a)</option>
+<option value="2"> Vi&uacute;vo(a)</option>
+<option value="3"> Divorciado(a)</option>
+</select><br/>
+Deixe sua mensagem<br/> <textarea name="msn" cols="20" rows="7"></textarea><br/>
+<!-- A TAG LEGEND CRIA UMA BORDA COM TEXTO -->
+<fieldser>
+<legend> CPF </legend>
+<input type="text" name="cpf" size="14">
+</fieldser>
+<br/>
+<!-- BOTÕES E SUAS AÇÕES
+     SUBMIT = ENVIAR O FORM P/ O ARQUIVO QUE ESTÁ NO ACTION DO FORN
+     BUTTON = SERVE PARA ESPECIFICAR O LINK EXTERNO, É NECESSARIO
+     UTILIZAR A PROPRIEDADE ONCLICK="LOCATION='URL DA PAGINA'"-->
+
+<input type="submit" name="bt_enviar" value="Enviar form">
+<input type="button" name="bt_link" value="Ir p/ Google" onclick="Location='http://www.google.com.br'">
+</form>
+</body>
+</html>

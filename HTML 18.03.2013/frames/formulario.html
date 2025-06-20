@@ -1,0 +1,34 @@
+<html>
+<head><!--comentario-->
+<title>pagina de index</title>
+</head>
+<body background="../img/fundo.jpg">
+<form>
+<fieldset>
+ <legend> Dados Pessoais</legend>
+<p> Nome
+<input type="text" name="nome"><br>
+<p><input type="radio" name="sexo">Masculino
+<input type="radio" name="sexo">Feminino
+
+<p> Curso:<br> <input type="checkbox" name="java">JAVA
+          <input type="checkbox" name="C">C
+<p> Bairro<br>
+  <select style="width:20%; height:20%;background:blue;">
+    <option value="0">Escolha</option>
+    <option value="1">Manoa</option>
+    <option value="2">Sao Jorge</option>
+    <option value="3">Cidade nova</option>
+  </select>
+  
+<p> Mensagem<br>
+  <textarea col="10" rows="10" maxlength="10" style="background:yellow" placeholder="Digite seu texto"> </textarea>
+
+<p><br>
+</fieldset>
+<hr cor="black">
+<input type="submit" value="Enviar Dados" style="width:70%;height:50%;background:black;color:white;font-size:50px;font-family:tahoma">
+<input type="reset" value="Limpa dados">
+</form>
+</body>
+</html>

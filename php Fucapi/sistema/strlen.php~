@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>...:STRLEN:...</title>
+</head>
+<body>
+<form name="formexe" method="post" action="?acao=verificar">
+Digite seu nome: <input type="text" name="nome" id="nome" size="30">
+<br/>
+<input type="submit" name="bt_enviar" id="bt_enviar" value="Verificar LETRAS">
+</form>
+<?php
+if ($acao == verificar)
+ {
+  $str = $nome;
+  echo "Total de Letras digitadas: ". strlen($str);
+ }
+?>
+</body>
+</html>
+

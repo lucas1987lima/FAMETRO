@@ -1,0 +1,75 @@
+﻿<HTML>
+<HEAD>
+ <TITLE>Documento PHP</TITLE>
+</HEAD>
+<BODY bgcolor="#999999">
+     <form name="formcad" method="post" action="salvo.html">  
+     <b><h1><center><font color="red"><marquee>CADASTRO</marquee></center></h1></b>
+       <fieldset>
+          <legend><b>Dados Pessoais</b></legend>
+        
+     Nome:<br>
+
+ <input type="text"name="Nome"size"80" placeholder="Seu NOME"><p>
+<font color="red">Sexo:<br></font color="red">
+ <input type="radio"name"Sexo"checked>masculino
+ <input type="radio"name"Sexo"checked>feminino <br>
+          <br>
+       CPF:<br>
+
+ <input type="text"name="CPF"size"12" placeholder="Seu CPF"><p>
+       <font color="red">RG:</font color="red"><br>
+
+ <input type="text"name="RG"size"11" placeholder="Seu RG"><p>
+                 <font color="red">Email:</font color="red"><br>
+
+ <input type="text"Email="Email"size"50" placeholder="Seu E-MAIL"><p>
+                </fieldset>
+
+        <fieldset>
+        <br>
+          <legend><font color="red"><h3>Endere&ccedil;o</h3></font color="red"></legend>
+     Bairro:<br>
+
+ <select name="bairro" style="width 15%;height:5%;background:beige; font-color:white">
+ <option>selecione</option >
+ <option>Parque Morada do Sol</option>
+ <option>Parque das Laranjeiras</option>
+ <option>Cidade Nova</option>
+ <option>Ponta Negra</option>
+ </select> <br> <br>
+   Rua:<br>
+
+ <input type="text"name="Rua"size"80" placeholder="Sua RUA"><p>
+ 
+       <font color="red">Nº:</font color="red"><br>
+
+ <input type="text"name="Nº"size"12" placeholder="Numero da sua RUA"><p>
+       <font color="red" placeholder="Complemento da RUA">Complemento:</font color="red"><br>
+
+ <input type="text"name="Complemento"size"50"><p>
+        </fieldset>
+                  <br>
+                  <fieldset>
+                  <legend><font color="red"><h3>Reside</h3></font color="red"></legend>
+         Voc&ecirc; Mora em:<br> <br>
+
+ <input type="checkbox"name="Casa Própria">Casa Pr&oacute;pria
+ <input type="checkbox"name="Alugada">Alugada
+ <input type="checkbox"name="Cedida">Cedida
+                   </fieldset>
+                             <br>
+                              <fieldset>
+ <h3>Mensagem:</h3>
+ </b>
+ <textarea cols="50" rows="10" maxlength="10"></textarea>
+ <fieldset>
+ 
+ <input type="submit" name="bt_salvar" value="Salvar Dados">
+  <input type="reset" name="bt_limpar" value="limpar dados">
+  </font color="red">
+                
+                             </fieldset>
+ </form>   
+</BODY>
+</HTML>

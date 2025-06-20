@@ -1,0 +1,114 @@
+<?php
+function somar ($n1,$n2) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n1 + $n2; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+
+function sub ($n1,$n2) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n1 - $n2; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+
+function mult ($n1,$n2) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n1 * $n2; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+
+function div ($n1,$n2) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n1 / $n2; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+
+function cubn1 ($n1) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n1 * $n1 *$n1; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+
+function cubn2 ($n2) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n2 * $n2 *$n2; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+   
+function quadn1 ($n1) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n1 * $n1; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+
+function quadn2 ($n2) // n1 e n2 sao os parametros da funcao
+{
+  $total = $n2 * $n2; //total e uma var local
+  return $total;  //return retorna o resultado p/quem chamou a função
+}
+?>
+<html>
+<head>
+<title> CALCULADORA </title>
+</head>
+<body bgcolor="101010">
+<div align="center"><b></b><h1><font color="#ffffff">CALCULADORA COM FUNCAO<br/>"RESPOSTA"</font></h1></b></div>
+<br/><br/>
+<table width="30%" align="center" border="1" bordercolor="yellow" bgcolor="red">
+<tr>
+<td>
+<?php
+echo "O valor digitado em N1 foi: ".$n1;
+echo "<br/>";
+echo "O valor digitado em N2 foi: " .$n2;
+echo "<br/><br/>";
+if ($op == '1')
+{
+ echo "Resultado = ". somar ($n1,$n2);  
+ echo "<br/>";
+}
+else if ($op == '2')
+{
+ echo "Resultado = ". sub ($n1,$n2);  
+ echo "<br/>";
+}
+else if ($op == '3')
+{
+ echo "Resultado = ". mult ($n1,$n2);  
+ echo "<br/>";
+}
+else if ($op == '4')
+{
+ echo "Resultado = ". div ($n1,$n2);  
+ echo "<br/>";
+}
+else if ($op == '5')
+{
+ echo "Resultado = ". cubn1 ($n1);  
+ echo "<br/>";
+}
+else if ($op == '6')
+{
+ echo "Resultado = ". cubn2 ($n2);  
+ echo "<br/>";
+}
+else if ($op == '7')
+{
+ echo "Resultado = ". quadn1 ($n1);  
+ echo "<br/>";
+}
+else if ($op == '8')
+{
+ echo "Resultado = ". quadn2 ($n2);  
+ echo "<br/>";
+}
+echo "<br/> <br/>";
+echo "<input type='button' name='btv' value='Voltar' onclick=location='calc_funcao.php'>"; //voltar co botao
+// . (ponto) = concatenaÃ§Ã£o / uniÃ£o
+?>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

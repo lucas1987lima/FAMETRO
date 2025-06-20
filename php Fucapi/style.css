@@ -1,0 +1,12 @@
+<style>
+.textos {
+font-weight: bold;
+color: #ffffff;
+font-family: verdana;
+}
+
+input: focus {
+    background: #ffff00;
+    border: 1px solid #99f;
+}
+</style>
